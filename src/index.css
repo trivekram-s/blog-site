@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  text-align: center;
+  margin: 20px 0;
+}
+
+aside img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article h3 {
+  margin-bottom: 5px;
+}
+
+article small {
+  color: gray;
+}
