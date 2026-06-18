@@ -1,10 +1,10 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Header from './Header';
 
-describe('App Component', () => {
-  it('should render without crashing', () => {
-    render(<App />);
+describe('Header Component', () => {
+  it('should render the header', () => {
+    render(<Header />);
     expect(document.body).toBeDefined();
   });
 });
