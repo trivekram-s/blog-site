@@ -1,17 +1,17 @@
-import BlogHeader from "./components/Header";
-import BlogInfo from "./components/About";
-import PostCollection from "./components/ArticleList";
-import siteData from "./blog";
+import SiteHeader from "./components/Header";
+import BlogDetails from "./components/About";
+import PostsView from "./components/ArticleList";
+import blogData from "./blog";
 
 const App = () => {
-  const { name, image, about, posts } = siteData;
+  const { name, image, about, posts } = blogData;
 
   return (
-    <section>
-      <BlogHeader title={name} />
-      <BlogInfo logo={image} description={about} />
-      <PostCollection articles={posts} />
-    </section>
+    <div>
+      <SiteHeader name={name} />
+      <BlogDetails image={image} about={about} />
+      <PostsView posts={posts} />
+    </div>
   );
 };
 

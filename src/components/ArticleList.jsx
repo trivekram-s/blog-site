@@ -1,14 +1,14 @@
-import ArticleCard from "./Article";
+import Article from "./Article";
 
-const ArticleList = ({ articles }) => {
+const ArticleList = ({ posts }) => {
   return (
     <main>
-      {articles.map(({ id, title, date, preview }) => (
-        <ArticleCard
+      {posts.map(({ id, title, date, preview }) => (
+        <Article
           key={id}
-          heading={title}
-          publishedOn={date}
-          summary={preview}
+          title={title}
+          date={date}
+          preview={preview}
         />
       ))}
     </main>

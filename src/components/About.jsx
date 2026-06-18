@@ -1,8 +1,8 @@
-const About = ({ logo, description }) => {
+const About = ({ image, about }) => {
   return (
     <aside>
-      <img src={logo} alt="website logo" width={150} />
-      <p>{description}</p>
+      <img src={image} alt="blog logo" width="150" />
+      <p>{about}</p>
     </aside>
   );
 };

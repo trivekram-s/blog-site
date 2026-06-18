@@ -1,9 +1,9 @@
-const Article = ({ heading, publishedOn, summary }) => {
+const Article = ({ title, date, preview }) => {
   return (
     <article>
-      <h3>{heading}</h3>
-      <small>{publishedOn}</small>
-      <p>{summary}</p>
+      <h3>{title}</h3>
+      <small>{date}</small>
+      <p>{preview}</p>
     </article>
   );
 };

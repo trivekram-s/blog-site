@@ -1,21 +1,25 @@
-const siteData = {
-  name: "Rajesh's Developer Journal",
+const blog = {
+  name: "Rajesh's Tech Blog",
   image: "src/images/blog.jpg",
-  about: "Exploring modern web development with Java, Spring Boot, and React.",
+  about:
+    "Sharing knowledge about Java, Spring Boot, and React.",
+
   posts: [
     {
-      id: 101,
-      title: "React Fundamentals",
+      id: 1,
+      title: "Getting Started with React",
       date: "August 1, 2026",
-      preview: "An introduction to React, JSX, and reusable components."
+      preview:
+        "Learn the basics of React components and JSX."
     },
     {
-      id: 102,
-      title: "Working with Props",
+      id: 2,
+      title: "Understanding Props",
       date: "August 5, 2026",
-      preview: "Understanding how components communicate through props."
+      preview:
+        "Props help pass data between React components."
     }
   ]
 };
 
-export default siteData;
+export default blog;
